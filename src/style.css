@@ -1,0 +1,116 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,700;1,400;1,500&display=swap');
+
+/*Body*/
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+}
+
+/* Border Radius */
+
+.btn, .jumbotron, .nav :hover{
+    border-radius: 0px;
+}
+
+/* Cart Badge */
+
+.cart-badge, .cart-badge :hover{
+    padding: 2px;
+    font-size: 12px;
+}
+
+/* Product Image */
+
+.product-img{
+    min-height: 100px;
+}
+
+.jumbotron {
+    width: 30wh;
+    height: 30vh;
+    color: #fff;
+    background: linear-gradient(-45deg,#0a0a0a,  #111111, #de4d65, #d35656);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+}
+@media only screen and (max-width: 600px){
+    .jumbotron h2{
+        margin-top: 10px;
+    }
+}
+.nav{
+    /* width: 10wh; */
+    height: 8vh;
+    color: #fff;
+    background: linear-gradient(-45deg,#0a0a0a,  #111111, #de4d65, #d35656);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+ 
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+ 
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+/* Single Product Page */
+
+.card-header-1{
+    background: indianred;
+    color: ivory;
+    font-weight: bold;
+}
+
+/* black shade form 10-1 */
+.black-10 {
+    background: #f2f2f2;
+}
+.black-9 {
+    background: #e6e6e6;
+}
+.black-8 {
+    background: #d9d9d9;
+}
+.black-7 {
+    background: #cccccc;
+}
+.black-6 {
+    background: #bfbfbf;
+}
+.black-5 {
+    background: #b3b3b3;
+}
